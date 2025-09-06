@@ -1,11 +1,11 @@
-
-import './App.css';
-import CountryFlags from "./CountryFlags"
+import React from 'react';
+import FlagDisplay from './FlagDisplay';
 
 function App() {
   return (
-    <div className="App">
-     <CountryFlags/> 
+    <div className="app">
+      <h2 style={{paddingLeft:" 10px"}}>Country Flags</h2>
+      <FlagDisplay />
     </div>
   );
 }
